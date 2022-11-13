@@ -15,12 +15,15 @@
 ### Show data
 
 - Header
+- Login page
+- Home page
+- Error page
 
 ## SignForm
 
 ### Show data
 
-- Form with username, password and submit information.
+- Form with username, password, and submit information.
 
 ### Get actions
 
