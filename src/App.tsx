@@ -1,11 +1,13 @@
-function App() {
+import { Routes } from "React-router-dom";
+import Header from "./components/Header/Header";
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Isdigram</h1>
-      </header>
-    </div>
+    <>
+      <Header />
+      <Routes></Routes>
+    </>
   );
-}
+};
 
 export default App;
