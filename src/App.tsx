@@ -1,9 +1,14 @@
+import { AppStyled } from "./components/AppStyled";
 import Header from "./components/Header/Header";
+import RegisterForm from "./components/RegisterForm/RegisterForm";
 
 const App = () => {
   return (
     <>
-      <Header />
+      <AppStyled>
+        <Header />
+        <RegisterForm />
+      </AppStyled>
     </>
   );
 };
