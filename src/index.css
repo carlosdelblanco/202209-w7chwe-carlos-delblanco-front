@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: "Futura", sans-serif;
@@ -8,6 +12,5 @@ body {
 
 #root {
   display: flex;
-
   align-items: center;
 }
