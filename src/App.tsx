@@ -1,11 +1,11 @@
-function App() {
+import Header from "./components/Header/Header";
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Isdigram</h1>
-      </header>
-    </div>
+    <>
+      <Header />
+    </>
   );
-}
+};
 
 export default App;
