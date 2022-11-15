@@ -24,7 +24,7 @@ const RegisterFormStyled = styled.div`
 
   label {
     text-align: initial;
-    color: #000;
+    color: #fff;
   }
 
   form input {
@@ -32,6 +32,7 @@ const RegisterFormStyled = styled.div`
     border-color: #a4a4a4;
     border-radius: 5px;
     padding-bottom: 5px;
+    padding-left: 10px;
   }
 
   button {
