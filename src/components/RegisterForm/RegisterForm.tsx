@@ -61,6 +61,7 @@ const RegisterForm = (): JSX.Element => {
             <button>Register</button>
           </form>
           <span>Do you already have an account?</span>
+          <p></p>
           <Link to="/">Login</Link>
         </div>
       </RegisterFormStyled>

@@ -34,6 +34,7 @@ const LoginForm = (): JSX.Element => {
   return (
     <>
       <LoginFormStyled>
+        <h2>Your social network</h2>
         <div className="loginData">
           <h1 className="loginData__title">Please login ...</h1>
           <form onSubmit={(event) => submitForm(event)}>
@@ -51,13 +52,12 @@ const LoginForm = (): JSX.Element => {
               />
               <label className="loginData__label" htmlFor="username"></label>
             </div>
-            <div>
+            <div className="loginData__field">
               <input
                 type="password"
                 name="password"
                 id="password"
                 placeholder="password"
-                className="loginData__field"
                 aria-label="password-input"
                 onChange={formDataChange}
                 autoComplete="off"
@@ -68,6 +68,7 @@ const LoginForm = (): JSX.Element => {
             <button>Login</button>
           </form>
           <span>Create an account</span>
+          <p></p>
           <Link to="/register">Register</Link>
         </div>
       </LoginFormStyled>

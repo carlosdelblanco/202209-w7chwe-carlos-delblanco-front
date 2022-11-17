@@ -11,8 +11,8 @@ const RegisterFormStyled = styled.div`
     background-color: #0077b5;
     padding-top: 0;
     margin: auto;
-    padding: 10px;
-    width: 300px;
+    padding: 20px;
+    width: 100%;
   }
 
   form {

@@ -11,8 +11,8 @@ const LoginFormStyled = styled.div`
     background-color: #0077b5;
     padding-top: 0;
     margin: auto;
-    padding: 10px;
-    width: 100%;
+    padding: 20px;
+    width: 300px;
   }
 
   .loginData__title {
@@ -36,6 +36,7 @@ const LoginFormStyled = styled.div`
   }
 
   form input {
+    width: 100%;
     height: 50px;
     border-color: #a4a4a4;
     border-radius: 5px;
@@ -44,7 +45,7 @@ const LoginFormStyled = styled.div`
   }
 
   button {
-    width: 280px;
+    width: 100%;
     height: 40px;
     font-size: 16px;
     color: #caccce;
