@@ -58,6 +58,7 @@ const RegisterForm = (): JSX.Element => {
               placeholder="example@example.com"
             />
             <button>Register</button>
+            <button>Login</button>
           </form>
         </div>
       </RegisterFormStyled>
