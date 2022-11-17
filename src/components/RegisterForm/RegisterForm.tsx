@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import useUser from "../../hooks/useUser";
 import { UserRegister } from "../../types/types";
 import RegisterFormStyled from "./RegisterFormStyled";
@@ -58,8 +59,9 @@ const RegisterForm = (): JSX.Element => {
               placeholder="example@example.com"
             />
             <button>Register</button>
-            <button>Login</button>
           </form>
+          <span>Do you already have an account?</span>
+          <Link to="/">Login</Link>
         </div>
       </RegisterFormStyled>
     </>

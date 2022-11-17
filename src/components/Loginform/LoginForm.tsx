@@ -42,7 +42,7 @@ const LoginForm = (): JSX.Element => {
                 type="text"
                 name="username"
                 id="username"
-                placeholder="name surname"
+                placeholder="username"
                 className="loginData__field"
                 aria-label="username-input"
                 onChange={formDataChange}

@@ -31,7 +31,7 @@ const useUser = () => {
 
   const loginUser = async (loginData: UserCredentials) => {
     try {
-      const loginResponse = await fetch(`${url}users/login`, {
+      const loginResponse = await fetch(`${url}/users/login`, {
         method: "POST",
         body: JSON.stringify(loginData),
         headers: {

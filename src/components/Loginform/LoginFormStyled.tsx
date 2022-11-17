@@ -12,6 +12,14 @@ const LoginFormStyled = styled.div`
     padding-top: 0;
     margin: auto;
     padding: 10px;
+    width: 100%;
+  }
+
+  .loginData__title {
+    color: white;
+    padding-top: 0;
+    margin: auto;
+    padding: 10px;
     width: 300px;
   }
 
