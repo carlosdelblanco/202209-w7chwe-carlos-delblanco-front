@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const RegisterFormStyled = styled.div`
+const LoginFormStyled = styled.div`
   h2 {
     padding-top: 30px;
     padding-bottom: 10px;
@@ -12,7 +12,15 @@ const RegisterFormStyled = styled.div`
     padding-top: 0;
     margin: auto;
     padding: 20px;
-    width: 100%;
+    width: 300px;
+  }
+
+  .loginData__title {
+    color: white;
+    padding-top: 0;
+    margin: auto;
+    padding: 10px;
+    width: 300px;
   }
 
   form {
@@ -28,6 +36,7 @@ const RegisterFormStyled = styled.div`
   }
 
   form input {
+    width: 100%;
     height: 50px;
     border-color: #a4a4a4;
     border-radius: 5px;
@@ -36,7 +45,7 @@ const RegisterFormStyled = styled.div`
   }
 
   button {
-    width: 280px;
+    width: 100%;
     height: 40px;
     font-size: 16px;
     color: #caccce;
@@ -44,4 +53,4 @@ const RegisterFormStyled = styled.div`
   }
 `;
 
-export default RegisterFormStyled;
+export default LoginFormStyled;

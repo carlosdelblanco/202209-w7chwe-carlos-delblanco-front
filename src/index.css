@@ -5,12 +5,12 @@
 body {
   margin: 0;
   font-family: "Futura", sans-serif;
-  color: #0077b5;
+  color: #fff;
   background-color: #fcf6f5ff;
   box-sizing: border-box;
 }
 
 #root {
   display: flex;
-  align-items: center;
+  flex-direction: column;
 }

@@ -12,3 +12,18 @@ export interface UserRegister {
   password: string;
   email: string;
 }
+
+export interface JwtCustomPayload {
+  id: string;
+  username: string;
+}
+
+export interface UserLoginData {
+  username: string;
+  id: string;
+  token: string;
+}
+
+export interface UserState extends UserLoginData {
+  isLogged: boolean;
+}
